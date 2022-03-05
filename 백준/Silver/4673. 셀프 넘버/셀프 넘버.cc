@@ -7,13 +7,13 @@ int d(int n);
 int main()
 {
 	int n=1;
-	int temp[10003] = { 0, };
+	int temp[10026] = { 0, };
 	int result;
 	
 	while (1)
 	{
 		result = d(n);
-		if (result>10002)
+		if (result>10026)
 			break;
 
 		// cout << d(n) << '\n'; 
